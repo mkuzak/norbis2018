@@ -9,6 +9,8 @@
 
 * [Navigating Notebook](https://github.com/Reproducible-Science-Curriculum/introduction-RR-Jupyter/blob/gh-pages/notebooks/Navigating%20the%20notebook%20-%20instructor%20script.ipynb)
 
+## magics
+
 * timeit
 
 ```py
