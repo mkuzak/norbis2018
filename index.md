@@ -22,6 +22,7 @@
 #notebook1
 a = "from notebook 1"
 %store a
+
 #notebook2
 %store -r
 print(a)
