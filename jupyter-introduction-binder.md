@@ -48,28 +48,3 @@ nbdime config-git --enable --global
 
 # MyBinder
 [From Zero to Binder](https://github.com/Build-a-binder/build-a-binder.github.io/blob/master/workshop/10-zero-to-binder.md)
-
-# Modules
-
-[Python Modules](https://github.com/mkuzak/python-modules/blob/master/python-modules.md)
-
-# Packages
-
-[Python Packaging Tutorial](https://python-packaging-tutorial.readthedocs.io/en/latest/setup_py.html)
-
-* download Capitalize example
-from [here](https://python-packaging-tutorial.readthedocs.io/en/latest/_downloads/capitalize.zip)
-
-Include data file in the package.
-
-```py
-setup(...,
-      packages=['mypkg'],
-      package_dir={'mypkg': 'src/mypkg'},
-      package_data={'mypkg': ['data/*.dat']},
-      )
-```
-
-# Testing
-
-[Python testing](http://katyhuff.github.io/python-testing/)
